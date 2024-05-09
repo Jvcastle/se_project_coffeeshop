@@ -50,7 +50,11 @@
 }
 
 .about__paragraph {
-  margin-bottom: 20px;
+  margin-bottom: 0 0 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {

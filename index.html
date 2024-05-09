@@ -8,9 +8,6 @@
     <meta name="author" content="Julian Castillo" />
     <meta name="keywords" content="HTML, CSS" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="blocks/header.css" />
-    <link rel="stylesheet" href="blocks/recipes.css" />
-    <link rel="stylesheet" href="blocks/reservation.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -102,6 +99,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name-surname"
+                  required
                 />
               </label>
               <label for="number-of-guests" class="form__lable">
@@ -113,6 +111,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="number-of-guests"
+                  required
                 />
               </label>
               <label for="date-time" class="form__lable">
@@ -121,6 +120,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="date-time"
+                  required
                 />
               </label>
               <label for="email" class="form__lable">
@@ -130,6 +130,7 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
@@ -252,7 +253,7 @@
               class="footer__logo-tripleten"
             />
           </div>
-          <div class="footer__social-heading">
+          <div class="footer__social">
             <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">

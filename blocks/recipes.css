@@ -3,6 +3,7 @@
   background-image: url(../images/background_recipes.svg);
   background-color: #0a2750;
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -14,6 +15,11 @@
 .recipes__title {
   max-width: 500px;
   margin: 100px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 .recipes__subtitle {
   font-family: "Noto Serif";
@@ -40,6 +46,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .recipes__iframe {
